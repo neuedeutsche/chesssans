@@ -1,0 +1,29 @@
+# Ignore everything by default.
+*
+
+# Keep git metadata and ignore file itself.
+!.gitignore
+!README.md
+
+# Public, consumer-facing artifacts.
+!ChessSansVariableFont.ttf
+!Format — OTF/
+!Format — OTF/**
+!Format — TTF/
+!Format — TTF/**
+!Format — WOFF/
+!Format — WOFF/**
+!Format — WOFF2/
+!Format — WOFF2/**
+!Rounded — OTF/
+!Rounded — OTF/**
+
+# Ignore nested folder named like the repo (legacy/accidental).
+ChessSans/
+
+# Exclude OS junk and shortcuts even inside public folders.
+**/.DS_Store
+**/._*
+**/Thumbs.db
+**/desktop.ini
+*.lnk
